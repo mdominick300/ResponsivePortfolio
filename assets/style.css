@@ -4,16 +4,24 @@
     padding-top: 15px;
     
 }
-
+.white{
+    color:white;
+}
 
 a {
     text-decoration: none;
     color: #777777;
+
 }
-.navbar-light, .navbar-brand{
-    padding: 20px;
+.navbar-light, .navbar-brand {
     background-color: #4aaaa5;
-    color: white;
+    padding-bottom:20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    margin-left:-15px;
 }
 .navbar-toggler{
     background: #4aaaa5;
@@ -124,11 +132,10 @@ p {
     line-height: 150%;
 }
 .pic{
-    padding-right: 20px;
-    padding-bottom: 10px;
+    margin-bottom: 20px;
     float: left;
-    height: 200px;
-    width: 240px;
+    height: 200px auto;
+    width: 240px auto;
 }
 
 .topdiv{
@@ -172,22 +179,19 @@ p {
 }
 
 .portbox{
+    background: url("./unnamed.png");
+    width: 100%;
     border: solid 1px;
-    height: 230px;
-    width: 270px;
-    float: left;
+    background-size: cover;
     margin-right: 40px;
     margin-bottom: 40px;
-    position: relative;
-    background: url("./unnamed.png");
-    background-size:cover;
+    height: 230px auto;
+    width: 270px auto;
     background-position:center;
 }
 
 .rpggame{
     border: solid 1px;
-    height: 230px;
-    width: 270px;
     float: left;
     margin-right: 40px;
     margin-bottom: 40px;
@@ -195,12 +199,14 @@ p {
     background: url("./game.gif");
     background-size:cover;
     background-position:center;
+    height: 230px auto;
+    width: 270pc auto;
 }
 
 .trivia{
     border: solid 1px;
-    height: 230px;
-    width: 270px;
+    height: 230px auto;
+    width: 270px auto;
     float: left;
     margin-right: 40px;
     margin-bottom: 40px;
@@ -212,8 +218,8 @@ p {
 
 .fidget{
     border: solid 1px;
-    height: 230px;
-    width: 270px;
+    height: 230px auto;
+    width: 270px auto;
     float: left;
     margin-right: 40px;
     margin-bottom: 40px;
@@ -225,8 +231,8 @@ p {
 
 .rock{
     border: solid 1px;
-    height: 230px;
-    width: 270px;
+    height: 230px auto;
+    width: 270px auto;
     float: left;
     margin-right: 40px;
     margin-bottom: 40px;
@@ -238,15 +244,15 @@ p {
 
 
 .insidebox{
-    height: 50px;
     width: 100%;
     background: #4aaaa5;
     text-align: center;
     color: white;
     font-size: 150%;
     position: relative;
-    margin-top:150px;
-    padding-top:10px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
@@ -256,11 +262,8 @@ p {
    
     .top {
         width: 100%;
-        padding
         
     }
     .headermenu{
         width: 100%;
-        margin-top: 30px;
-        text-align: center;
     }

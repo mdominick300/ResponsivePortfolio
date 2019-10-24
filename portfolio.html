@@ -19,70 +19,63 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="col-md-2"></div>
-        <div class="top col-md-4">
-            <h1>Matthew Dominick</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+        <div class="container topdiv">
+            <a class="navbar-brand" href="#">Matthew Dominick</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" style="float-right">
+                    <a class="nav-item nav-link" style="color:gray" href="./index.html">About Me</a>
+                    <a class="nav-item nav-link" style="color:grey" href="./portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" style="color:gray" href="./contact.html">Contact</a>
+                </div>
+            </div>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse col-md-4 justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="col-md-2"></div>
     </nav>
     <div class="container-fluid">
-        <div class="row middle">
+        <div class="row">
             <div class="col-md-2">
             </div>
-            <div class="whitebox col-md-8 topdiv">
+            <div class="whitebox col-md-8">
                 <h2 style=color:#4aaaa5>Portfolio</h2>
                 <div class="line"></div>
                 <br>
                 <br>
-                <div class="portbox">
-                    <div class="insidebox">Hangman</div>
+                <div class="row">
+                    <div class="portbox col-md-4 embed-responsive embed-responsive-4by3">
+                        <div class="insidebox">Hangman</div>
+                    </div>
+                    <div class="rpggame col-md-4 embed-responsive embed-responsive-4by3">
+                        <div class="insidebox">RPG Game</div>
 
+                    </div>
                 </div>
-                <div class="rpggame">
-                    <div class="insidebox">RPG Game</div>
+                <div class="row">
+                    <div class="trivia col-md-4 embed-responsive embed-responsive-4by3">
+                        <div class="insidebox">Trivia Game</div>
 
+                    </div>
+                    <div class="fidget col-md-4 embed-responsive embed-responsive-4by3">
+                        <div class="insidebox">Rutgers Info Fidget</div>
+                    </div>
                 </div>
-                <div class="trivia">
-                    <div class="insidebox">Trivia Game</div>
+                <div class="row">
+                    <div class="rock col-md-4 embed-responsive embed-responsive-4by3">
+                        <div class="insidebox">Rock Paper Scissors</div>
 
+                    </div>
                 </div>
-                <div class="fidget">
-                    <div class="insidebox">Rutgers Info Fidget</div>
-
-                </div>
-                <div class="rock">
-                    <div class="insidebox">Rock Paper Scissors</div>
-
-                </div>
-
             </div>
             <div class="col-md-2"></div>
         </div>
-    </div>
-
-    <div class="footer">
-        Copyright ©
-
-    </div>
+        <div class="row">
+            <div class="footer">
+                Copyright ©
+            </div>
+        </div>
     </div>
 </body>
 
