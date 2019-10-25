@@ -4,6 +4,10 @@
     padding-top: 15px;
     
 }
+/* collapsable button on the right */
+.nav-item{
+    text-align: right;
+}
 .white{
     color:white;
 }
@@ -13,6 +17,7 @@ a {
     color: #777777;
 
 }
+/* navbar css */
 .navbar-light, .navbar-brand {
     background-color: #4aaaa5;
     padding-bottom:20px;
@@ -40,6 +45,7 @@ a {
     background: #4aaaa5;
     color: white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 100%;
       
 }
 
@@ -260,10 +266,4 @@ p {
     
   
    
-    .top {
-        width: 100%;
-        
-    }
-    .headermenu{
-        width: 100%;
-    }
+   

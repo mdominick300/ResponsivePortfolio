@@ -3,6 +3,7 @@
 
 <head>
     <title>About Me</title>
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -14,32 +15,38 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <!-- style.css -->
     <link href="./assets/style.css" rel="stylesheet">
 
 </head>
 
 <body>
+        <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-light">
-        <div class="container topdiv">
-            <a class="navbar-brand" href="#">Matthew Dominick</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav" style="float-right">
-                    <a class="nav-item nav-link" style="color:gray" href="./index.html">About Me</a>
-                    <a class="nav-item nav-link" style="color:grey" href="./portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" style="color:gray" href="./contact.html">Contact</a>
+            <div class="container topdiv">
+                <a class="navbar-brand" href="#">Matthew Dominick</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- spacing on navbar -->
+                <div class="col-md-6"></div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" style="color:gray" href="./index.html">About Me</a>
+                        <a class="nav-item nav-link" style="color:grey" href="./portfolio.html">Portfolio</a>
+                        <a class="nav-item nav-link" style="color:gray" href="./contact.html">Contact</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-
+        </nav>
+<!-- container -->
     <div class="container-fluid">
         <div class="row">
+            <!-- keeps centering -->
             <div class="col-md-2">
             </div>
+            <!-- main box -->
             <div class="whitebox topdiv col-md-8">
                 <h2>About Me</h2>
                 <div class="line">
@@ -47,6 +54,7 @@
                 <br>
                 <div class="row">
                     <div class="col-md-12">
+                        <!-- main info wraps text around picture -->
                         <img class="pic col-md-4 img-responsive" id="bio-image" src="./assets/FullSizeRender.jpg"
                             alt="Matthew">
 
@@ -78,6 +86,7 @@
         </div>
 
         <div class="row">
+            <!-- sticky footer -->
             <div class="footer">
                 Copyright ©
             </div>
