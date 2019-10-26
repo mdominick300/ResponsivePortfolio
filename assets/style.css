@@ -1,17 +1,13 @@
-.responsive {
-    float: right;
-    text-align: right;
-    padding-top: 15px;
-    
-}
+
 /* collapsable button on the right */
 .nav-item{
     text-align: right;
 }
+/* navbar css */
 .white{
     color:white;
 }
-
+/* Links */
 a {
     text-decoration: none;
     color: #777777;
@@ -28,6 +24,7 @@ a {
     margin-bottom: -10px;
     margin-left:-15px;
 }
+
 .navbar-toggler{
     background: #4aaaa5;
 }
@@ -35,6 +32,7 @@ a {
 .bg-light {
     background-color: white;
 }
+
 .top {
     padding-right: 10px;
     padding-left: 10px;
@@ -49,7 +47,7 @@ a {
       
 }
 
-
+/* inside header */
 h2 {
     color:#4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -60,6 +58,7 @@ h2 {
     float: left;
     background: #4aaaa5;
 }
+/* background */
 body{
     color: #777777;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -72,27 +71,12 @@ body{
     flex: 1 0 auto;
     width: 100%;
 }
-
+/* part of sticky footer */
 html{
     height: 100%;
 }
 
-
-.middle{
-    background: url("./criss-cross.png");
-    background-attachment:fixed;
-    background-size:cover;
-    background-position:center;
-    position:relative;
-    padding: 0 px 0 px;
-    overflow: auto;
-    clear: both;
-    border-color: #ffffff;
-    border: solid 1px;
-    flex: 1 0 auto;
-    width: 100%;
-    
-}
+/* middle box  */
 .whitebox {
     position: relative;
     background:white;
@@ -106,7 +90,7 @@ html{
     
 }
 
-
+/* sticky footer */
 .footer {
     width: 100%;
     border-top: 8px solid #4aaaa5;
@@ -122,38 +106,30 @@ html{
     
 }
 
-#p1 {text-align: center;
-    line-height: 100%;
-
-}
-
-.hr { 
-    display: block;
-    padding: 1px;
-    background:#777777;
-    margin: 1px;
-}
-
+/* text spacing */
 p {
     line-height: 150%;
 }
+/* picture sizing */
 .pic{
     margin-bottom: 20px;
     float: left;
     height: 200px auto;
     width: 240px auto;
 }
-
+/* hold sizing */
 .topdiv{
     width: 960px;
     
 }
 
+/* line css */
 .line{
     border-bottom: solid 1px;
     padding: 0 0 20px 0;
 }
 
+/* input box */
 .input1[type=text]{
     width: 100%;
     padding: 12px 5px;
@@ -161,17 +137,12 @@ p {
     box-sizing: border-box;
     
 }
-
+/* large input box */
 .input2[type=text] {
     width: 100%;
     padding: 10px 10px 160px 5px;
     margin: 8px 0;
     box-sizing: border-box;
-}
-
-.lgbox{
-    border: solid 1px;
-    height: 200px;
 }
 
 .button{
@@ -248,7 +219,7 @@ p {
     background-position:center;
 }
 
-
+/* green inside box */
 .insidebox{
     width: 100%;
     background: #4aaaa5;
@@ -262,7 +233,6 @@ p {
 
 }
 
-@media screen and (max-width: 990px) {
     
   
    
