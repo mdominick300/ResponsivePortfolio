@@ -22,18 +22,19 @@
     <Header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-light">
             <div class="container topdiv">
-                <a class="navbar-brand" href="#">Matthew Dominick</a>
+                <a class="navbar-brand" href="./index.html">Matthew Dominick</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- spacing on navbar -->
-                <div class="col-md-6"></div>
+                <div class="col-md-5"></div>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link" style="color:gray" href="./index.html">About Me</a>
-                        <a class="nav-item nav-link" style="color:grey" href="./portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link" style="color:gray" href="./contact.html">Contact</a>
+                        <a class="nav-item nav-link" style="" href="./index.html">About Me</a>
+                        <a class="nav-item nav-link" style="" href="./portfolio.html">Portfolio</a>
+                        <a class="nav-item nav-link" href="./resume.html">Resume</a>
+                        <a class="nav-item nav-link" href="./contact.html">Contact</a>
                     </div>
                 </div>
             </div>
@@ -49,36 +50,85 @@
             <div class="whitebox col-md-8">
                 <h2 style=color:#4aaaa5>Portfolio</h2>
                 <div class="line"></div>
-                <br>
-                <br>
                 <div class="row">
                     <!-- responsive photos -->
-                    <div class="portbox col-md-4 embed-responsive embed-responsive-4by3">
-                        <div class="insidebox">Hangman</div>
+                    <div class="col-md-6 eembed-responsive embed-responsive-4by3 text-center">
+                        <div class="picture"><a
+                                href="https://mdominick300.github.io/HookEvent/" target="_blank"><img
+                                    src="./assets/Screen Shot 2019-12-10 at 11.00.05 PM.png" title="HookEvent"
+                                    width="100%" height="220"
+                                     /></a>
+                            <div class="insidebox">Hook Events</div>
+                        </div>
+                        <button class="btn" id="github2" onclick= "window.open('https://github.com/mdominick300/HookEvent', '_blank')"></button>
                     </div>
-                    <div class="rpggame col-md-4 embed-responsive embed-responsive-4by3">
-                        <div class="insidebox">RPG Game</div>
+                    <div class="col-md-6 eembed-responsive embed-responsive-4by3 text-center">
+                        <div class="picture"><a
+                                href="https://mdominick300.github.io/WeatherDashboard/" target="_blank"><img
+                                    src="./assets/Screen Shot 2019-12-10 at 11.26.07 PM.png" title="HookEvent"
+                                    width="100%" height="220" 
+                                    /></a>
+                            <div class="insidebox">RPG Game</div>
 
+                        </div>
+                        <button class="btn" id="github2" onclick= "window.open('https://github.com/mdominick300/WeatherDashboard', '_blank')"></button>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="trivia col-md-4 embed-responsive embed-responsive-4by3">
-                        <div class="insidebox">Trivia Game</div>
-
+                        <div class="col-md-6 eembed-responsive embed-responsive-4by3 text-center">
+                        <div class="picture"><a
+                            href="https://mdominick300.github.io/DayPlanner/" target="_blank"><img
+                                src="./assets/Screen Shot 2019-12-11 at 6.37.49 PM.png" title="Day Planner"
+                                width="100%" height="220"
+                                 /></a>
+                        <div class="insidebox">Day Planner</div>
                     </div>
-                    <div class="fidget col-md-4 embed-responsive embed-responsive-4by3">
-                        <div class="insidebox">Rutgers Info Fidget</div>
-                    </div>
+                    <button class="btn" id="github2" onclick= "window.open('https://github.com/mdominick300/DayPlanner', '_blank')"></button>
                 </div>
-                <div class="row">
-                    <div class="rock col-md-4 embed-responsive embed-responsive-4by3">
-                        <div class="insidebox">Rock Paper Scissors</div>
-
-                    </div>
+                
                 </div>
             </div>
             <div class="col-md-2"></div>
         </div>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-slide-to="0" class="active"><a
+                    href="https://mdominick300.github.io/WeatherDashboard/" target="_blank"><img
+                        src="./assets/Screen Shot 2019-12-10 at 11.26.07 PM.png" title="HookEvent"
+                        width="100%" height="100%" 
+                        /></a></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+              
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="..." alt="...">
+                    <div class="carousel-caption">
+                      ...
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="..." alt="...">
+                    <div class="carousel-caption">
+                      ...
+                    </div>
+                  </div>
+                  ...
+                </div>
+              
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
         <div class="row">
             <!-- footer -->
             <footer class="footer mt-auto py-3">

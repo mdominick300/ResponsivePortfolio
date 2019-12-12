@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="./assets/style.css" rel="stylesheet">
+
+    <script src="html2pdf.bundle.min.js"></script>
+
+    <script>
+        function generatePDF() {
+            // Choose the element that our invoice is rendered in.
+            const element = document.getElementById("invoice");
+            // Choose the element and save the PDF for our user.
+            html2pdf()
+                .from(element)
+                .save();
+        }
+    </script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <Header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+            <div class="container topdiv">
+                <a class="navbar-brand" href="./index.html">Matthew Dominick</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- spacing on navbar -->
+                <div class="col-md-5"></div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                            <a class="nav-item nav-link" style="" href="./index.html">About Me</a>
+                            <a class="nav-item nav-link" style="" href="./portfolio.html">Portfolio</a>
+                            <a class="nav-item nav-link"            href="./resume.html">Resume</a>
+                            <a class="nav-item nav-link"  href="./contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </Header>
+    <!-- container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <div class="row break">
+                    
+                    <h3>Summary</h3>
+                    <br>
+                    <p class="indent">Detail oriented manager geared to lead a team in a fast paced work environment. Skilled at
+                        increasing
+                        productivity, improving operations, and maximizing efficiencies.
+                    </p>
+                </div>
+                <div class="row break">
+                    <h3>Education</h3>
+                    <br>
+                    <p class="indent">
+                        Full Stack Web Developer Boot Camp
+                        University of North Carolina at Charlotte, Charlotte, NC
+                        BSBA in Operations and Supply Chain Management
+                    </p>
+                </div>
+                <div class="row break">
+                    <h3>Experience</h3>
+                </div>
+                <div class="row break indent">
+                    <h5>Operations Manager</h5>
+                    <br>
+                    <ul class="indent">
+                        <li>Negotiated half million dollar shipping agreements to lower company inbound shipping cost by
+                            30%
+                        </li>
+                        <li>Oversaw warehouse development during rapid company expansion of up to 80% yearly</li>
+                        <li>Held weekly meetings to assist with communication and feedback</li>
+                        <li>Maximize efficiency by continuously improving warehouse layout and workflows</li>
+                        <li>Maintained facilities and equipment with routine maintenance</li>
+                        <li>Supervised inventory levels </li>
+                    </ul>
+                </div>
+                <div class="row break indent">
+                    <h5>Warehouse Manager</h5>
+                    <ul class="indent">
+                        <li>Monitor productivity and train employees to grow individual skills
+                        </li>
+                        <li>OIncreased productivity by 40% in first year
+                        </li>
+                        <li>Implemented new sales channels with 10k monthly revenue after 6 months
+                        </li>
+                        <li>Continuously improved and developed methods to decrease errors leading to 99% customer
+                            satisfaction
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+        </div>
+        <!-- <button onclick="generatePDF()">Download as PDF</button>
+        <div id="invoice">
+            <h1>Our Invoice</h1>
+        </div>
+
+        <div class="row">
+           
+            <footer class="footer mt-auto py-3">
+                Copyright ©
+            </footer>
+        </div> -->
+    </div>
+</body>
+
+</html>
