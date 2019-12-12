@@ -1,17 +1,41 @@
 # ResponsivePortfolio
 
-Task was to update a previously completed portfolio so that it is more responsive. This includes the overall layout as well as the pictures. Bootstrap framework was added in as well as changes to the old format to make a navbar. This process allowed me to learn about and integrate bootstrap and its rows and columns formatting. 
-
- Troubles quickly arouse as I was not as versed in rows and columns as I originally thought. I was able to learn on the fly and finally I understood that you should not use a column unless you have row. I also had to overcome some of the preset formatting that is built in to bootstrap when I wanted to make adjustments.
+Portfolio for displaying my web development accomplishments. Includes: github link, linkedIn link, links to projects, resume, bio and contact information.
  
  https://mdominick300.github.io/ResponsivePortfolio/index.html
- 
- # Purposes
 
- Learning bootstrap is a very helpful step on my way to getting better at development. Using premade pieces allows a developer to speed up the process. Bootstrap is also made to be responsive which can be very beneficial.
+ # Code
+-HTML
+<br>
+-CSS
+<br>
+-Bootstrap
 
-This will be a showcase of my work as it is completed to prospective employers.
 
+# ScreenShots
+<img src="assets/Screen Shot 2019-12-12 at 6.16.40 PM.png" width=400px>
+<img src="assets/Screen Shot 2019-12-12 at 6.16.30 PM.png" width=400px>
 
-Used bootstrap as well as vs studio pro to complete the code.
-Consists of 3 html pages and a css page as well as folders containing pictures used. 
+# License
+
+MIT License
+
+Copyright (c) [year] [fullname]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
