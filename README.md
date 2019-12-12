@@ -4,6 +4,8 @@ Task was to update a previously completed portfolio so that it is more responsiv
 
  Troubles quickly arouse as I was not as versed in rows and columns as I originally thought. I was able to learn on the fly and finally I understood that you should not use a column unless you have row. I also had to overcome some of the preset formatting that is built in to bootstrap when I wanted to make adjustments.
  
+ https://mdominick300.github.io/ResponsivePortfolio/index.html
+ 
  # Purposes
 
  Learning bootstrap is a very helpful step on my way to getting better at development. Using premade pieces allows a developer to speed up the process. Bootstrap is also made to be responsive which can be very beneficial.
