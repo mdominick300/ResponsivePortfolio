@@ -292,15 +292,20 @@ html {
   margin-top: 300px;
   
 }
-#landingButton{
+.landingButton{
   background: blue;
   font-size: 30px;
   width: 25%;
   padding: 10px;
+  color:white;
   text-align: center;
   margin-top: 20px;
   border-radius: 12px;
   text-decoration: none;
+  transition: transform .2s;
+}
+.landingButton:hover{
+  transform: scale(1.5);
 }
 #landingLink{
   text-decoration: none;

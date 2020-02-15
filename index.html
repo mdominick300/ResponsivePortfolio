@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>About Me</title>
-    <!-- bootstrap -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Dominick</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -15,102 +16,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <!-- style.css -->
     <link href="./assets/style.css" rel="stylesheet">
-
-
 </head>
 
-<body class="d-flex flex-column h-100">
-    <!-- navbar -->
-    <Header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-light navbar-custom">
-            <div class="container topdiv">
-                <a class="navbar-brand" href="./index.html">Matthew Dominick</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- spacing on navbar -->
-                <div class="col-md-5"></div>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" style="" href="./index.html">About Me</a>
-                        <a class="nav-item nav-link" style="" href="./portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link" href="./resume.html">Resume</a>
-                        <a class="nav-item nav-link" href="./contact.html">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </Header>
-    <!-- container -->
-    <div class="container-fluid">
-        <div class="row">
-            <!-- keeps centering -->
-            <div class="col-md-2">
-            </div>
-            <!-- main box -->
-            <div class="whitebox topdiv col-md-8">
-                <div class="row">
-                    <h2 class="col-md-9">About Me</h2>
-                    <div class="col-md-3 text-right">
-                        <p>mdominick300@gmail.com</p>
-                        <p>(336)848-6212</p>
-                    </div>
-                </div>
-                <div class="line">
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-12">
-                        <!-- main info wraps text around picture -->
-                        <img class="pic col-md-4 img-responsive" id="bio-image" src="./assets/FullSizeRender.jpg"
-                            alt="Matthew">
-
-                        <p>My name is Matthew Dominick and I am an aspiring full stack web developer! Currently enrolled
-                            in a 6 month boot camp through UNCC. After completion I hope to get a job in a related
-                            field.
-                        </p>
-                        <br>
-                        <br>
-                        <p>I currently have a full time job. My second job is an aspiring web developer learning the ins
-                            and outs of coding. The things I enjoy the most about coding include: the building aspect,
-                            the "Aha moments", and cool and interesting things javascript can accomplish. During the
-                            boot camp process I have learned about: HTML, CSS, Javascript, Node, Jquery, mySQL, sequelize, handlebars, and express .</p>
-                        <br><br>
-                        <p>
-                            Outside of class I enjoy watching sports, hanging out with friends and playing with my dog
-                            Echo. He is spoiled rotten by my wife and myself. I stay active between sports, social
-                            activities and working out. The sport I play the most is Golf. Its a relaxing way to spend a
-                            few hours on a beautiful day.
-                        </p>
-                        <div class="row">
-                            <div class="col-md-2"></div>
-                            <div class="col-md-4 text-center">
-                                <button class="btn" id="github" onclick= "window.open('https://github.com/mdominick300', '_blank')"></button>
-                            </div>
-                            <div class="col-md-4 text-center">
-                                <button class="btn" id="linkedin" onclick= "window.open('https://www.linkedin.com/in/matthew-dominick-922b0a64?trk=people-guest_profile-result-card_result-card_full-click', '_blank')"></button>
-                            </div>
-                            <div class="col-md-2"></div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-            </div>
-        </div>
-
-        <div class="row">
-            <!-- sticky footer -->
-            <footer class="footer mt-auto py-3">
-                Copyright ©
-            </footer>
-        </div>
+<body id="landingBackground">
+    <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8 text-center">
+        <h1 id="landingTitle">Matthew Dominick</h1>
+        <!-- <button id="landingButton"> -->
+            <a class="landingButton" id="landingLink" href="./about.html">Enter Portfolio</a>
+        <!-- </button> -->
     </div>
-
+    <div class="col-md-2"></div>
+</div>
 </body>
 
 </html>
