@@ -72,10 +72,14 @@ body {
   flex: 1 0 auto;
   width: 100%;
 }
-/* part of sticky footer */
+
 html {
   height: 100%;
-  
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
 /* middle box  */
@@ -91,7 +95,7 @@ html {
   width: 100%;
 }
 
-/* sticky footer */
+
 .footer {
   width: 100%;
   border-top: 8px solid rgb(25, 107, 155);
@@ -101,12 +105,11 @@ html {
   padding-top: 30px;
   color: white;
   font-size: 50%;
-  clear: both;
+  /* clear: both; */
 
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
-  width: 100%;
   color: white;
   text-align: center;
 }
@@ -249,13 +252,13 @@ html {
 }
 
 .slideInfo{
-  color:white;
+  color:black;
   padding:1px;
-  background: rgb(25, 107, 155);
-  border-radius: 8px;
+  /* background: rgb(25, 107, 155); */
+  /* border-radius: 8px; */
   text-align:center;
-  left:15%;
-  right: 15%;
+  /* left:15%; */
+  /* right: 15%; */
   /* top:0;
   bottom: 0; */
 }
@@ -306,6 +309,7 @@ html {
 #landingLink{
   text-decoration: none;
 }
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);

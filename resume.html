@@ -16,18 +16,8 @@
         crossorigin="anonymous"></script>
     <link href="./assets/style.css" rel="stylesheet">
 
-    <script src="html2pdf.bundle.min.js"></script>
 
-    <script>
-        function generatePDF() {
-            // Choose the element that our invoice is rendered in.
-            const element = document.getElementById("invoice");
-            // Choose the element and save the PDF for our user.
-            html2pdf()
-                .from(element)
-                .save();
-        }
-    </script>
+
 </head>
 
 <body>
@@ -56,87 +46,86 @@
     <!-- container -->
     <div class="container">
         <div class="row">
-            
+
             <div class="col-md-2">
             </div>
-            
+
             <div class=" col-md-8">
                 <br>
-                    <button class="btn float-right" id="print" onclick= "window.open('assets/ResumePDF.pdf', '_blank')">Printable Version</button>
-                    <div class="whitebox">
-                <div class="row align-items-end flex-column resume">
-                    <p>Matthew Dominick</p>
-                    <p>6712 Santa Maria Lane, Charlotte NC 28227</p>
-                    <p>Phone: (336)848-6212</p>
-                    <p>Email: mdominick300@gmail.com</p>
-                </div>
-                <div class="row break">
-
-                    <h3>Summary</h3>
-                    <br>
-                    <p class="indent">Aspiring full stack web developer prepared to help a development team reach their goals
-                    </p>
-                </div>
-                <div class="row break">
-                    <div>
-                        <h3>Education</h3>
+                <button class="btn float-right" id="print"
+                    onclick="window.open('assets/Resume.pdf', '_blank')">Printable Version</button>
+                <div class="whitebox">
+                    <div class="row align-items-end flex-column resume">
+                        <p>Matthew Dominick</p>
+                        <p>6712 Santa Maria Lane, Charlotte NC 28227</p>
+                        <p>Phone: (336)848-6212</p>
+                        <p>Email: mdominick300@gmail.com</p>
                     </div>
-                    <br>
-                    <div class="row indent">
-                        <p>Full Stack Web Developer Boot Camp</p>
-                        <p>University of North Carolina at Charlotte, Charlotte, NC
-                            <br>
-                        BSBA in Operations and Supply Chain Management</p>
-                    </div>
-                </div>
-                <div class="row break">
-                    <h3>Experience</h3>
-                </div>
-                <div class="row break indent">
-                    <h5>Operations Manager</h5>
-                    <br>
-                    <ul class="indent">
-                        <li>Negotiated half million dollar shipping agreements to lower company inbound shipping cost by
-                            30%
-                        </li>
-                        <li>Oversaw warehouse development during rapid company expansion of up to 80% yearly</li>
-                        <li>Held weekly meetings to assist with communication and feedback</li>
-                        <li>Maximize efficiency by continuously improving warehouse layout and workflows</li>
-                        <li>Maintained facilities and equipment with routine maintenance</li>
-                        <li>Supervised inventory levels </li>
-                    </ul>
-                </div>
-                <div class="row break indent">
-                    <h5>Warehouse Manager</h5>
-                    <ul class="indent">
-                        <li>Monitor productivity and train employees to grow individual skills
-                        </li>
-                        <li>OIncreased productivity by 40% in first year
-                        </li>
-                        <li>Implemented new sales channels with 10k monthly revenue after 6 months
-                        </li>
-                        <li>Continuously improved and developed methods to decrease errors leading to 99% customer
-                            satisfaction
-                        </li>
+                    <div class="row break">
 
-                    </ul>
+                        <h3>Summary</h3>
+                        <br>
+                        <p class="indent">Aspiring full stack web developer prepared to help a development team reach
+                            their goals
+                        </p>
+                    </div>
+                    <div class="row break">
+                        <div>
+                            <h3>Education</h3>
+                        </div>
+                        <br>
+                        <div class="row indent">
+                            <p>Full Stack Web Developer Boot Camp</p>
+                            <p>University of North Carolina at Charlotte, Charlotte, NC
+                                <br>
+                                BSBA in Operations and Supply Chain Management</p>
+                        </div>
+                    </div>
+                    <div class="row break">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="row break indent">
+                        <h5>UNCC Web Development Bootcamp</h5>
+                        <ul class="indent">
+                            <li>Comprehensive full stack development bootcamp
+                            </li>
+                            <li>Completed multiple assignments using various coding languages and methods
+                            </li>
+                            <li>HTML5, CSS3, Javascript, Express, Handlebars, Mongol.js, Node.js, Git, mySQL, JQuery,
+                                Sequelize, React, Heroku
+
+                            </li>
+                            <li>Thrived in team environments to complete projects
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="row break indent">
+                        <h5>Operations Manager</h5>
+                        <br>
+                        <ul class="indent">
+                            <li>Negotiated half million dollar shipping agreements to lower company inbound shipping
+                                cost by
+                                30%
+                            </li>
+                            <li>Oversaw warehouse development during rapid company expansion of up to 80% yearly</li>
+                            <li>Held weekly meetings to assist with communication and feedback</li>
+                            <li>Maximize efficiency by continuously improving warehouse layout and workflows</li>
+                            <li>Maintained facilities and equipment with routine maintenance</li>
+                            <li>Supervised inventory levels </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
         <div class="col-md-2">
         </div>
-        <!-- <button onclick="generatePDF()">Download as PDF</button>
-        <div id="invoice">
-            <h1>Our Invoice</h1>
-        </div>
-
         <div class="row">
-           
+            <!-- sticky footer -->
             <footer class="footer mt-auto py-3">
                 Copyright ©
             </footer>
-        </div> -->
+        </div>
     </div>
 </body>
 
