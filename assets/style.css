@@ -75,6 +75,7 @@ body {
 /* part of sticky footer */
 html {
   height: 100%;
+  
 }
 
 /* middle box  */
@@ -85,7 +86,7 @@ html {
   clear: both;
   padding: 40px;
   height: auto;
-  margin: 40px 0 40px 0;
+  margin: 40px 0 100px 0;
   border-color: #777777;
   width: 100%;
 }
@@ -129,7 +130,7 @@ html {
 }
 
 /* input box */
-.input1[type="text"] {
+.input1{
   width: 100%;
   padding: 12px 5px;
   margin: 8px 0;
@@ -207,7 +208,7 @@ html {
 
 #github2 {
   background: url("./GitHub_Logo\ copy.png");
-  padding: 5px 20px 5px 20px;
+  padding: 10px 25px 10px 25px;
   background-position: center;
   background-size: cover;
 }
@@ -246,3 +247,79 @@ html {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
+.slideInfo{
+  color:white;
+  padding:1px;
+  background: rgb(25, 107, 155);
+  border-radius: 8px;
+  text-align:center;
+  left:15%;
+  right: 15%;
+  /* top:0;
+  bottom: 0; */
+}
+.w-100 {
+  height: 500px;
+  margin-bottom: 100px;
+}
+.d-block{
+  height: 400px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black;
+}
+.carousel-inner{
+  margin-top: 50px;
+}
+.d-block:hover{
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.d-none {
+  display: block!important;
+}
+
+#landingBackground{
+  background:rgb(25, 107, 155);
+}
+#landingTitle{
+  text-align: center;
+  font-size: 80px;
+  margin-top: 300px;
+  
+}
+#landingButton{
+  background: blue;
+  font-size: 30px;
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+#landingLink{
+  text-decoration: none;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
