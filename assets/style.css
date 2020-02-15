@@ -302,10 +302,6 @@ html {
   margin-top: 20px;
   border-radius: 12px;
   text-decoration: none;
-  transition: transform .2s;
-}
-.landingButton:hover{
-  transform: scale(1.5);
 }
 #landingLink{
   text-decoration: none;
